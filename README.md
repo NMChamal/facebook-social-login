@@ -9,7 +9,7 @@
 <code>
   <ul>
     <li>Desgin and Developed by : Malinda Chamal</li>
-    <li>Mail : nm3chamal@gmail.com </li>
+    <li>Email : nm3chamal@gmail.com </li>
   </ul>
 </code>
 
