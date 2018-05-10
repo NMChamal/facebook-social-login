@@ -11,10 +11,7 @@ function loadDOC(method,url,htmlTag)
         if(this.readyState==4 && this.status==200)
         {
             console.log("CSRF token scuessfully fetched : "+this.responseText);
-            document.getElementById(htmlTag).value = this.responseText;
-            //return this.responseText; //return response
-            
-            
+            document.getElementById(htmlTag).value = this.responseText;  
         }
     };
 
