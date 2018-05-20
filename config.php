@@ -31,7 +31,7 @@
     //change this according to your need * ex :- scope *
     function AUTH_URL($client_id,$redirect_url)
     {
-        $url = "https://www.facebook.com/dialog/oauth?response_type=code&client_id=$client_id&redirect_uri=$redirect_url&scope=public_profile%20user_photos%20user_friends%20email%20user_birthday%20user_gender%20user_link%20user_posts%20manage_pages%20publish_pages";
+        $url = "https://www.facebook.com/dialog/oauth?response_type=code&client_id=$client_id&redirect_uri=$redirect_url&scope=public_profile";
         return $url;
     }
 

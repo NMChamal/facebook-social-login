@@ -18,7 +18,7 @@
   if(isset($_GET['code']))
   {
     //get Access token and store it inside $result variable
-    $result = get_auth_code(174875303212995, "https://localhost/OAuth/redirect.php", $_GET['code'], "NTE4MTc3Mjg4NTc4OTE4OjhlZTVmMDI0ZTQwODEwZWQ1Nzg4ODhjNzQzZGM2NmI4");
+    $result = get_auth_code(518177288578918, "https://localhost/OAuth/redirect.php", $_GET['code'], "NTE4MTc3Mjg4NTc4OTE4OjhlZTVmMDI0ZTQwODEwZWQ1Nzg4ODhjNzQzZGM2NmI4");
     
     //jason array to fetch token
     $token_json = json_decode($result);
